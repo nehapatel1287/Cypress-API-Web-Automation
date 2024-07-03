@@ -1,8 +1,8 @@
 {
-  "name": "cypress_automation",
+  "name": "cypress",
   "version": "1.0.0",
-  "description": "voiro tescase",
-  "main": "cypress.config.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,11 @@
     "url": "nehapatel1287"
   },
   "author": "neha",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
 }
